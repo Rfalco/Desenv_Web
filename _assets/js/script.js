@@ -8,6 +8,7 @@
  * Date: 2020-21-06
  */
 
+
 window.onload = function () {
 
     var canvas = document.getElementById("canvas");
