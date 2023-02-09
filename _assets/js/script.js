@@ -24,7 +24,7 @@ window.onload = function () {
         var designMatrix = function () {
 
             /// COR DO FUNDO DA TELA
-            neo.getContext("2d").fillStyle = "rgba(0,0,0,.05)";
+            neo.getContext("2d").fillStyle = "rgba( 0, 0, 0, .05 )";
 
             /// POSIÇÃO INICIAL DO TOP E LEFT
             neo.getContext("2d").fillRect(0, 0, width, height);
