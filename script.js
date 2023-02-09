@@ -23,45 +23,25 @@ window.onload = function () {
 
         var designMatrix = function () {
 
+            /// COR DO FUNDO DA TELA
+            neo.getContext("2d").fillStyle = "rgba(0,0,0,.05)";
 
+            /// POSIÇÃO INICIAL DO TOP E LEFT
+            neo.getContext("2d").fillRect(0, 0, width, height);
 
             /// COR DOS CARACTERES *******************************
             let oAtS = new Date().getSeconds();
             if (oAtS >= 00 && oAtS <= 09) {
-                /// COR DO FUNDO DA TELA
-                neo.getContext("2d").fillStyle = "rgba(150,0,255,.05)";
-                /// POSIÇÃO INICIAL DO TOP E LEFT
-                neo.getContext("2d").fillRect(0, 0, width, height);
                 neo.getContext("2d").fillStyle = "#FFF";    /// BRANCO
             } else if (oAtS >= 10 && oAtS <= 19) {
-                /// COR DO FUNDO DA TELA
-                neo.getContext("2d").fillStyle = "rgba(0,0,0,.05)";
-                /// POSIÇÃO INICIAL DO TOP E LEFT
-                neo.getContext("2d").fillRect(0, 0, width, height);
                 neo.getContext("2d").fillStyle = "#FF0";    /// AMARELO
             } else if (oAtS >= 20 && oAtS <= 29) {
-                /// COR DO FUNDO DA TELA
-                neo.getContext("2d").fillStyle = "rgba(255,255,255,.05)";
-                /// POSIÇÃO INICIAL DO TOP E LEFT
-                neo.getContext("2d").fillRect(0, 0, width, height);
                 neo.getContext("2d").fillStyle = "#F00";    /// VERMELHO
             } else if (oAtS >= 30 && oAtS <= 39) {
-                /// COR DO FUNDO DA TELA
-                neo.getContext("2d").fillStyle = "rgba(0,0,0,.05)";
-                /// POSIÇÃO INICIAL DO TOP E LEFT
-                neo.getContext("2d").fillRect(0, 0, width, height);
                 neo.getContext("2d").fillStyle = "#0FF";    /// AZUL
             } else if (oAtS >= 40 && oAtS <= 49) {
-                /// COR DO FUNDO DA TELA
-                neo.getContext("2d").fillStyle = "rgba(0,0,0,.05)";
-                /// POSIÇÃO INICIAL DO TOP E LEFT
-                neo.getContext("2d").fillRect(0, 0, width, height);
                 neo.getContext("2d").fillStyle = "#0F0";    /// VERDE
             } else if (oAtS >= 50 && oAtS <= 59) {
-                /// COR DO FUNDO DA TELA
-                neo.getContext("2d").fillStyle = "rgba(250,0,0,.05)";
-                /// POSIÇÃO INICIAL DO TOP E LEFT
-                neo.getContext("2d").fillRect(0, 0, width, height);
                 neo.getContext("2d").fillStyle = "#F0F";    /// VIOLETA
             }
 
